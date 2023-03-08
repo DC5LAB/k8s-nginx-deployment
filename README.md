@@ -25,7 +25,7 @@
  ## Expose deployment
  
  ```bash
-  expose deployment nginx-deployment --type=LoadBalancer --name=nginx
+ kubectl expose deployment nginx-deployment --type=LoadBalancer --name=nginx
   ```
  
  ## Delete nginx deployment
